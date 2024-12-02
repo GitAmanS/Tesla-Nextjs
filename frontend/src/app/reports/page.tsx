@@ -1,3 +1,4 @@
+import FilterBar from '@/components/FilterBar'
 import React from 'react'
 
 const page = () => {
@@ -11,32 +12,8 @@ const page = () => {
         </div>
 
 
+        <FilterBar/>
 
-        <div className="grid grid-cols-3 gap-4">
-  <div className="col-span-1">
-    Content 1
-  </div>
-  <div className="col-span-1">
-    Content 2
-  </div>
-  <div className="col-span-1">
-    Content 3
-  </div>
-
-  <div className="col-span-1">
-    Content 4
-  </div>
-  <div className="col-span-1">
-    Content 5
-  </div>
-
-  <div className="col-span-1">
-    Content 6
-  </div>
-  <div className="col-span-1">
-    Content 7
-  </div>
-</div>
 
     </div>
 
